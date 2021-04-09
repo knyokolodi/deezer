@@ -4,7 +4,6 @@ import { Row, Col } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import Search from '../Search/Search';
 import ArtistItem from './ArtistItem';
-import { Route } from 'react-router-dom';
 
 const Artists = () => {
   const [artist, setArtist] = useState(null);
